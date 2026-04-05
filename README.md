@@ -1,23 +1,21 @@
-**💡 Engineering Context:** This project was developed as a rapid MVP (Minimum Viable Product). To accelerate frontend delivery and focus on the core system architecture, I leveraged **Google AI Studio** for AI-assisted code generation and scaffolded the UI with TypeScript/React. The primary focus of this build was exploring AI API orchestration and rapid cloud deployment via Vercel.
+# FEP-AirSense: Medical IoT & Biometric Monitor 🌬️
 
+### 🚀 Overview
+A high-fidelity medical IoT application prototype designed for real-time monitoring of air quality and biometric data. This platform serves as a centralized dashboard for health-conscious environments, transforming raw sensor data into actionable health insights.
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+### 🏗️ Engineering Context
+Developed as a **Rapid MVP (Minimum Viable Product)** to demonstrate the integration of AI-driven data interpretation with modern web interfaces. The focus was on creating a highly responsive, "glanceable" dashboard for critical health metrics.
 
-# Run and deploy your AI Studio app
+### 🛠️ Tech Stack
+* **Frontend:** TypeScript + React
+* **Styling:** Tailwind CSS for medical-grade UI/UX clarity.
+* **Logic:** AI-orchestrated data simulation and visualization logic.
+* **Platform:** Deployed and hosted on Vercel.
 
-This contains everything you need to run your app locally.
+### 📈 Key Features
+* **Real-time Health Telemetry:** Simulated live tracking of SpO2, Heart Rate, and Ambient Air Quality.
+* **Anomalous Detection Logic:** Integrated visual alerts for biometric readings outside of standard safety thresholds.
+* **Cross-Platform Accessibility:** Fully responsive design for both desktop clinical viewing and mobile patient monitoring.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1StJookFXl81I0aPKumFFxP2fvR9Gtynw
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 💡 Vision
+This prototype explores the future of **Assisted Healthcare Engineering**, where AI tools are used to rapidly scaffold complex monitoring interfaces, allowing engineers to focus on high-level data accuracy and user safety.
